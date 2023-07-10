@@ -59,7 +59,7 @@
         </figure>
       </details>
     </li>
-    <li>Finally paste the response in the text area below with <kbd class="emph">Ctrl+v</kbd> or the paste button.</li>
+    <li>Finally paste the response in the text area below with <kbd class="emph">Ctrl+v</kbd> or the paste button. All the magic happens in your browser, no data is sent anywhere.</li>
   </ol>
 
   <h2>Let's see</h2>
