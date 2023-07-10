@@ -47,7 +47,7 @@
   <p>Well, I don't know, how should I know this? But let's be real, as I said, these tools only analyze data that is already sent to your browser, so probably not.</p>
 
   <h3>Is my wallet at risk if I use these tools?</h3>
-  <p>No. The information analyzed doesn't contain any of your wallet keys. But be careful nonetheless: do not, under any circumstances, enter your wallet password or seed phrase anywhere on this website. Also, I will never contact you asking for such data. Not here, not on any other platform. If someone who looks like me requests this information, it's not me.</p>
+  <p>No. The information analyzed doesn't contain any of your wallet keys. But be careful nonetheless: do not, under any circumstances, enter your wallet password or seed phrase anywhere on this website. Also, there's no need to connect your wallet or sign something here. And, I will never contact you asking for such data. Not here, not on any other platform. If someone who looks like me requests this information, it's not me.</p>
 
   <h3>Can you make this or that tool?</h3>
   <p>No. 😉</p>
