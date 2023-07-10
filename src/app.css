@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  :root .prose {
+    --tw-prose-links: theme('colors.sky.500');
+  }
+
+  .emph {
+    @apply font-mono;
+    padding: 2px 8px;
+    border-radius: var(--rounded-badge);
+    color: var(--tw-prose-code);
+    font-weight: 600;
+    font-size: 0.875em;
+  }
+}
