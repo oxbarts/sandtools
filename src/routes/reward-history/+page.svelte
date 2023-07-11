@@ -9,6 +9,7 @@
     name: string
     id?: string
     url?: string
+    marketUrl?: string
   }
 
   type Reward = {
@@ -37,7 +38,8 @@
           name: Asset ? Asset.name : 'SAND',
           amount: Asset ? amount : Number(BigInt(amount)/BigInt("10000000000000000"))/100,
           id: Asset ? Asset.id : `SAND-${i}`,
-          url: Asset ? `https://opensea.io/assets/ethereum/${contractAddress}/${Asset.blockchainId}` : undefined
+          url: Asset ? `https://opensea.io/assets/ethereum/${contractAddress}/${Asset.blockchainId}` : undefined,
+          marketUrl: Asset ? `https://www.sandbox.game/en/assets/${Asset.name.toLowerCase().replace(/[\s_-]+/g, '-')}/${Asset.id}/` : undefined
         }))
       }))
     } catch (_) {
@@ -120,7 +122,7 @@
                       {#if item.id.startsWith('SAND-')}
                         {item.name}
                       {:else}
-                        <a href={item.url}>{item.name}</a>
+                        <a href={item.url}>{item.name}</a> (<a href={item.marketUrl}>Marketplace</a>)
                       {/if}
                     </li>
                   {/each}
