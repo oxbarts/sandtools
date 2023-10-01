@@ -23,7 +23,7 @@
 <div class="prose">
   <h1>Hey there!</h1>
   <p class="lead">Looking to delve deeper into your <a href="https://www.sandbox.game/en/">Sandbox</a> account? Here are some tools that help you get some insights the easy way. Your data never leaves your computer. Nor do the tools hack and jeopardize your account in any way. So explore fearlessly!</p>
-  <p>*One more thing: I am not affiliated with The Sandbox and I have nothing to do with dem except me being a happy player. All this is basically fan art in code 😎</p>
+  <p>*One more thing: I am not affiliated with The Sandbox and I have nothing to do with them except me being a happy player. All this is basically fan art in code 😎</p>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12 not-prose">
     <Tool title="Reward history" icon="money" description="List (almost) all rewards you received" url="{base}/reward-history"/>
