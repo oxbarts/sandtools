@@ -27,7 +27,10 @@
 
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12 not-prose">
     <Tool title="Reward history" icon="money" description="List (almost) all rewards you received" url="{base}/reward-history"/>
-    <Tool title="Free Tx Checker" icon="tx" description="Check when your free transactions will be refilled." url="{base}/free-tx-checker"/>
+    <Tool title="Free Tx Checker" icon="tx" url="{base}/free-tx-checker">
+      <p>Check when your free transactions will be refilled.</p>
+      <p class="text-sm"><span class="uppercase rounded-full bg-secondary-content text-secondary text-xs px-1">LEGACY</span> TSB has built this feature into their website now. 🎉</p>
+    </Tool>
   </div>
 
   <p>New tools soon.</p>

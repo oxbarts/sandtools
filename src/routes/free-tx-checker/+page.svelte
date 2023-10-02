@@ -37,6 +37,8 @@
   <h1>Free Tx Checker</h1>
   <p class="lead">Find out when your free transactions will be refilled.</p>
 
+  <p><p class="text-sm"><span class="uppercase rounded-full bg-secondary-content text-secondary text-xs px-1">LEGACY</span> TSB has built this feature into their website now. 🎉 Please use the official website to check when your free transactions are refiilled. It's displayed at <a href="https://www.sandbox.game/en/me/settings/blockchain/" rel="noopener">sandbox.game/me/settings/blockchain/</a>.</p>
+
   <h2>Steps</h2>
   <ol>
     <li>Visit <span class="emph">Settings ></span> <a href="https://www.sandbox.game/en/me/settings/chain/">Blockchain Settings</a> on The Sandbox website. You may want to right-click and <i>Open in a new tab</i>.</li>
